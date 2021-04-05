@@ -1,0 +1,123 @@
+.div-cha{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+    background-color: #5f5ff8;
+    height: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+.chinhanh1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 14%;
+    height: 200px;
+    border-radius:50%
+}
+
+.chinhanh2{
+    width: 100%;
+}
+
+.chinhanh3{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.cangiua{
+    text-align: center;
+}
+
+.cochu1{
+    font-size: 30px;
+}
+
+.cochu2{
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    margin: auto;
+}
+
+.cochu3{
+    width: 60%;
+    font-size: 30px;
+    color: rgb(85, 85, 247);
+    text-align: center;
+    margin: auto;
+}
+
+.mauchu1{
+    color: red;
+}
+
+.mauchu2{
+    color: green;
+}
+
+.mauchu3{
+    color: rgb(204, 247, 51);
+}
+
+.mauchu4{
+  color: rgb(143, 15, 15);
+  font-size: 30px;
+}
+
+.mauchu5{
+    color: rgb(69, 87, 6);
+    font-size: 30px;
+}
+
+.mauchu6{
+    color: palevioletred;
+    font-size: 30px;
+}
+.thanhngang1{
+    width: 13%;
+   
+}
+
+.thanhngang2{
+    width: 100%;
+    border: 0ch;
+    background-color: black;
+    height: 0.3px;
+}
+
+.HIT1{
+    color: white;
+    font-size: 30px;
+}
+
+.HIT2{
+    color: red;
+    font-size: 30px;
+}
+.HIT {
+    display: flex;
+    background-color: rgb(78, 78, 243);
+    background: -moz-linear-gradient(bottom, rgb(78, 78, 243) 30%, #311bf1 80%);
+    background: -o-linear-gradient(bottom rgb(78, 78, 243) 30%, #311bf1 80%);
+    background: -ms-linear-gradient(bottom rgb(78, 78, 243) 30%, #311bf1 80%);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0.3, #d170fd),color-stop(0.8,  #1400c5));
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
