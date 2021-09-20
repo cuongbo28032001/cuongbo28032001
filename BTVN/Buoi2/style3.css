@@ -1,0 +1,53 @@
+.div_cha{
+    border: 1px solid teal;
+    background-color: rgb(231, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+.div_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.div_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.div_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.div_check{
+    margin-left: 17px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+.background{
+    width: 100%;
+    height: 720px;
+    background-image: url(./16.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: 0.8;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: 1px solid rgb(136, 171, 173);
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
+}

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body bgcolor="#ccc">
+    <h3>
+        Câu a
+    </h3>
+    <p>
+        Trong tài liệu HTML, bạn có thể định dạng lại chữ viết như <strong>tô đậm</strong>, chữ viết hoặc có thể <i>in
+            nghiêng</i>, hoặc cũng có thể <u>gạch
+            chân</u> nó 1 cách tuỳ thích, 1 số trường hợp bạn cũng có thể sử dụng <strike>gạch ngang</strike> chữ viết.
+    </p>
+    <hr>
+    <p>Ở trên là 1 đoạn kẻ ngang được khai báo bằng thẻ <code>&lt;hr&gt;</code>.</p>
+    <p>Nếu cần nhấn mạnh bạn cũng có thể <em>viết như này</em></p>
+    <br>
+    <h3>Câu b</h3>
+    <quote>
+        <p>
+            Thoạt nhìn đoạn văn này chẳng có ý nghĩa gì, nhưng khi nhìn kĩ lại thì đúng là chẳng có nghĩa.
+        </p>
+        <cite style="color: blue;">
+            Hưng Nguyễn
+        </cite>
+    </quote>
+    <br>
+    <h3>Câu c</h3>
+    <pre>
+        Thẻ <code>&lt;pre&gt;</code> dùng để đăng một câu đối thoại hoặc in 1 đoạn mã để cho dễ phân biệt với các văn bản thông
+        thường.
+    </pre>
+    <p>Phân biệt với các nội dung khác</p>
+    <pre>
+        function testFunction(strText){
+            altert(strText)
+        }
+    </pre>
+    <wbr>
+        To learn AJAX, you must be <mark>familiar</mark> with the XML <wbr>Http<wbr> Request Object.
+    </p>
+    <br>
+
+    <h3>Câu d</h3>
+    <img src="/Buoi1/pic1.jpg" alt="Thành viên HIT" style="width:500px;height: 400px;"><br>
+    <img src="/Buoi1/pic.jpg" alt="Thành viên HIT" style="width:500px;height: 400px;">
+
+    <h3> Câu e</h3>
+    <p><code>&#8226;</code>Bảng đơn giản</p>
+    <table border="1px" width="400px" height="100px">
+        <tr>
+            <td>Row 1, Column 1</td>
+            <td>Row 1, Column 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+        </tr>
+    </table>
+    <p><code>&#8226;</code>Bảng có tiêu đề</p>
+    <table border="1px" width="400px" height="100px">
+        <caption>Bảng lương nhân viên</caption>
+        <tr>
+            <th>Tên nhân viên</th>
+            <th>Lương</th>
+        </tr>
+        <tr>
+            <td>Minh Chinh</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>Duy Manh</td>
+            <td>7000</td>
+        </tr>
+    </table>
+    <p><code>&#8226;</code>Bảng có thuộc tính cellpadding và cellspacing</p>
+    <table border="1px" width="400px" height="100px" cellpadding="20px" cellspacing="10px">
+        <caption>Bảng lương nhân viên</caption>
+        <tr>
+            <th colspan="">Tên nhân viên</th>
+            <th>Lương</th>
+        </tr>
+        <tr>
+            <td>Minh Chinh</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>Duy Manh</td>
+            <td>7000</td>
+        </tr>
+    </table>
+    <p><code>&#8226;</code>Bảng có thuộc tính colspan và rowspan</p>
+    <table border="1px" width="500px" height="100px">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td colspan="3">Row 1 Cell 3</td>
+
+        </tr>
+        <tr>
+            <td>Row 2 Cell 1</td>
+            <td>Row 2 Cell 2</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+    <p><code>&#8226;</code>Bảng có thuộc tính màu nền</p>
+    <table border="1px" width="500px" height="100px" bgcolor="yellow" bordercolor="green">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td colspan="3">Row 1 Cell 3</td>
+
+        </tr>
+        <tr>
+            <td>Row 2 Cell 1</td>
+            <td>Row 2 Cell 2</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+    <p><code>&#8226;</code>Bảng có thuộc tính màu border và with, heigh của khung</p>
+    <table border="1px" width="400px" height="100px" bordercolor="green">
+        <tr>
+            <td>Row 1, Column 1</td>
+            <td>Row 1, Column 2</td>
+        </tr>
+        <tr>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+        </tr>
+    </table>
+
+    <h3>Câu f</h3>
+    <p><code>&#8226;</code>Danh sách không có thứ tự</p>
+    <ul>
+        <li>Tổng quan về HTML</li>
+        <li>Tổng quan về CSS</li>
+        <li>CSS với layout</li>
+        <li>Javascript và form</li>
+    </ul>
+    <hr>
+    <ul type="square">
+        <li>Beetroot</li>
+        <li>Ginger</li>
+        <li>potato</li>
+        <li>Radish</li>
+    </ul>
+    <br>
+    <ul type="disc">
+        <li>Beetroot</li>
+        <li>Ginger</li>
+        <li>potato</li>
+        <li>Radish</li>
+    </ul>
+    <ul type="circle">
+        <li>Beetroot</li>
+        <li>Ginger</li>
+        <li>potato</li>
+        <li>Radish</li>
+    </ul>
+    <hr>
+    <p><code>&#8226;</code>Danh sách đã sắp xếp</p>
+    <ol>
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol>
+    <hr>
+    <ol type = "1">
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol>
+    <hr>
+    <ol type = "I">
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol>
+    <hr>
+    <ol type = "i">
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol>
+    <hr>
+    <ol  type = "a">
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol> 
+    <hr>
+    <ol  type = "A">
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol>
+    <hr>
+    <ol  type = "1" start="4">
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol> 
+    <hr>
+    <ol  type = "I" start="4">
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol> 
+    <hr>
+    <ol  type = "i" start="4">
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol> 
+    <hr>
+    <ol  type = "a" start="4">
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol> 
+    <hr>
+    <ol  type = "A" start="4">
+        <li>Nguyen Van An</li>
+        <li>Nguyen Van Bao</li>
+        <li>Nguyen Van Chau</li>
+        <li>Nguyen Van Diem</li>
+    </ol> 
+
+<h3>Câu g</h3>
+<p>Em thiết lập màu ngay trên body của cả bài ạ</p>
+
+</body>
+
+</html>
